@@ -28,13 +28,13 @@ function RecipeCard({ recipe, bg, badge }) {
 
   return (
     <div
-      className={`flex flex-col rounded-md ${bg} overflow-hidden p-3 relative`}
+      className={`flex  flex-col rounded-md ${bg} overflow-hidden p-3 relative`}
     >
       <a
         href={`https://www.youtube.com/results?search_query=${recipe.label} recipe`}
         className="relative h-32"
       >
-        <div className="skeleton absolute inset-0" />
+        <div className=" skeleton absolute inset-0" />
         <img
           src={recipe.image}
           alt=""
@@ -45,8 +45,8 @@ function RecipeCard({ recipe, bg, badge }) {
             e.currentTarget.previousElementSibling.style.display = "none";
           }}
         />
-        <div className="absolute bottom-2 left-2 bg-white rounded-full p-1 cursor-pointer flex items-center gap-1 text-sm">
-          <Soup size={16} /> {recipe.yield} servings
+        <div className="absolute bottom-2 left-2 bg-white rounded-full p-1 cursor-pointer flex items-center gap-1 text-sm text-black font-semibold">
+          <Soup className="text-black" size={16} /> {recipe.yield} servings
         </div>
         <div
           className="absolute top-1 right-2 bg-white rounded-full p-1 cursor-pointer"
@@ -58,7 +58,7 @@ function RecipeCard({ recipe, bg, badge }) {
           {!isFavourite && (
             <Heart
               size={20}
-              className="hover:fill-red-500 hover:text-red-500"
+              className="hover:fill-red-500 hover:text-red-500 text-black"
             />
           )}
           {isFavourite && (
@@ -66,15 +66,15 @@ function RecipeCard({ recipe, bg, badge }) {
           )}
         </div>
       </a>
-      <div className="flex mt-1">
+      <div className="font-bold text-black flex mt-1">
         <p>{recipe.label}</p>
       </div>
-      <p className="my-2">
+      <p className="text-black my-2">
         {recipe.cuisineType[0].charAt(0).toUpperCase() +
           recipe.cuisineType[0].slice(1)}{" "}
         Kitchen
       </p>
-      <div className="flex gap-2 mt-auto">
+      <div className="text-black flex gap-2 mt-auto">
         {healthLabels.map((label, index) => (
           <div
             key={index}
