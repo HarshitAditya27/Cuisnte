@@ -1,11 +1,11 @@
-<p align='center'><img src='' width="250" ></p>
+<p align='center'><img src='https://github.com/user-attachments/assets/bbdae4be-b458-4c07-8eef-3ce377d20197' width="250" ></p>
 <h1 align='center'>Cuisnte</h1> 
 <p align='center'>Deployed Link: https://cuisnte.vercel.app  </p>
 
 ## Introduction 🐱‍💻
 
 - Cuisnte is a recipe discovery web application designed to suggest and find delicious recipes. It provides direct links to YouTube for recipe video suggestions.
-- It's simple web application made in JavaScript, React and TailwindCSS and uses <a href="https://www.edamam.com">**Edamam API**</a> for finding and sugesting recipes.
+- It's a simple web application made in JavaScript, React and TailwindCSS and uses <a href="https://www.edamam.com">**Edamam API**</a> for finding and suggesting recipes.
 
 ## Tech Stack used 👨‍💻
 
@@ -15,6 +15,7 @@
 
 - When clicking on a recipe, it redirects to YouTube recommendations video for the recipe. 
 - Vast collection of recipes.
+- Recipes can be saved in favourite section for further reference etc. 
   
 ## Learnings 📝
 
@@ -51,6 +52,12 @@ VITE_APP_KEY
 ``` 
 
   ## Screenshots  
+![Screenshot (684)](https://github.com/user-attachments/assets/b44a7dde-2e5b-4070-80e7-741ff7cfc632)
+![Screenshot (690)](https://github.com/user-attachments/assets/a714fb31-624e-459e-95ee-0bcce9b74aaa)
+![Screenshot (686)](https://github.com/user-attachments/assets/6907d34c-3fa6-4073-9a8c-d1189606742d)
+![Screenshot (688)](https://github.com/user-attachments/assets/86623340-d2e2-48b1-a81f-6b48dcf88440)
+![Screenshot (689)](https://github.com/user-attachments/assets/10f81d45-7be4-4c09-a509-18328be0b0fa)
+![Screenshot (691)](https://github.com/user-attachments/assets/0c2d0464-cbb1-45cb-81fa-aa18b4b81cae)
 
 
 
